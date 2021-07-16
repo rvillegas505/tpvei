@@ -1,0 +1,61 @@
+.divbotonform {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.navicono {
+    height: 3.8rem;
+    width: 3.8rem;
+}
+
+.iconSidebar {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2.3rem;
+    margin-left: 0.3rem;
+}
+
+.botonModal {
+    margin-top: 3rem;
+}
+
+.avisoBold {
+    font-weight: 700;
+}
+
+.iconHome {
+    height: 2rem;
+    width: 2rem;
+}
+
+.primeraFilaHome {
+    margin-top: 5rem;
+}
+
+.informeDiario {
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0.5px 0.5px 2px gray;
+}
+
+.radioInformeHome {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.avisoSeparador {
+    margin-bottom: 25rem;
+}
+
+.contNews {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.imgNoticiaHome {
+    height: 200px;
+    width: 300px;
+}

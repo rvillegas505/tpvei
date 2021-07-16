@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaludApp</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="img/healthy.png">
+</head>
+
+<body>
+
+    <!--NAV-->
+    <nav class="cyan darken-1">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#!" class="brand-logo"><img class="navicono" src="img/healthy.png"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                    <li><a href="collapsible.html">Acerca</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="registro.html">Registro</a></li>
+        <li><a href="collapsible.html">Acerca</a></li>
+    </ul>
+    <!--FINNAV-->
+
+    <div class="container">
+        <h3><img class="iconHome" src="img/edit.png">Registro</h3>
+    </div>
+
+    <div class="container">
+        <hr>
+        <form class="col">
+            <div class="row center-align">
+                <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">Nombre</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Apellido</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password2" type="password" class="validate">
+                    <label for="password2">Repite tu Password</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <h4>Datos para configurar tu perfil</h4>
+                <hr>
+                <div class="input-field col s6">
+                    <input id="altura" type="number" class="validate">
+                    <label for="altura">Altura</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="peso" type="number" class="validate">
+                    <label for="peso">Peso</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="edad" type="number" class="validate">
+                    <label for="edad">Edad</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <h5>¿Actualmente haces ejercicio?</h5>
+                <p>
+                    <label>
+                      <input name="group1" type="radio" value="si"/>
+                      <span>Si, frecuentemente</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                      <input name="group1" type="radio" value="si5050"/>
+                      <span>Menos de una vez por semana</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                      <input name="group1" type="radio" value="no"/>
+                      <span>No</span>
+                    </label>
+                </p>
+            </div>
+
+            <div class="row">
+                <h5>¿Que clase de dieta tienes?</h5>
+                <p>
+                    <label>
+                      <input name="group1" type="radio" value="si"/>
+                      <span>Omnivoro</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                      <input name="group1" type="radio" value="si5050"/>
+                      <span>OvolactoVegetariano</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                      <input name="group1" type="radio" value="no"/>
+                      <span>Vegano (No consumo nada de origen animal)</span>
+                    </label>
+                </p>
+            </div>
+
+            <hr>
+            <div class="center-align divbotonform">
+                <p class="cyan-text text-darken-4">* Recuerda que <b>aconsejamos que consultes con un profesional</b> si puedes llevar a cabo la dieta y rutina que te recomendaremos.</p>
+                <button class="btn waves-effect cyan darken-1" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+            </button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <!--Footer-->
+
+    <footer class="page-footer cyan darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">TP Final</h5>
+                    <p class="grey-text text-lighten-4">Visualización e Interfaces</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Secciones</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="aviso.html">Aviso</a></li>
+                        <li><a class="grey-text text-lighten-3" href="registro.html">Registro</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © Rodrigo Villegas
+                <a class="grey-text text-lighten-4 right" href="#!">Primer Cuatrimestre - 2021</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/navbar.js"></script>
+
+</body>
+
+</html>
